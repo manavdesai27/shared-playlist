@@ -12,7 +12,7 @@ const SharedPlaylist = ({ currentUser }) => {
 
   useEffect(() => {
     const roomName = 'cool room';
-    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzk2ZmExOTQ1N2ZkZTQ1YTkzOGNiY2M3MWZhODVkYTg0LTE2NzY2Mjc1MzkiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJ1c2VyIiwidmlkZW8iOnsicm9vbSI6ImNvb2wgcm9vbSJ9fSwiaWF0IjoxNjc2NjI3NTM5LCJleHAiOjE2NzY2MzExMzksImlzcyI6IlNLOTZmYTE5NDU3ZmRlNDVhOTM4Y2JjYzcxZmE4NWRhODQiLCJzdWIiOiJBQ2Y5ZDc5MDZlMzM2NjA4YzUyNjEwZDI5ZWE4ZWJkNTc2In0.-zNdfHDK-UXCQE4MChRd_4fhApSgZte_VjmTpHpYp9Y';
+    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzk2ZmExOTQ1N2ZkZTQ1YTkzOGNiY2M3MWZhODVkYTg0LTE2NzY2NTIxMjIiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJ1c2VyIiwidmlkZW8iOnsicm9vbSI6ImNvb2wgcm9vbSJ9fSwiaWF0IjoxNjc2NjUyMTIyLCJleHAiOjE2NzY2NTU3MjIsImlzcyI6IlNLOTZmYTE5NDU3ZmRlNDVhOTM4Y2JjYzcxZmE4NWRhODQiLCJzdWIiOiJBQ2Y5ZDc5MDZlMzM2NjA4YzUyNjEwZDI5ZWE4ZWJkNTc2In0.E7WYHWFTyWN8jDam2G3gxT1EYY0ZevlazyJE0X01gj0';
 
     Video.connect(token, {
       name: roomName
